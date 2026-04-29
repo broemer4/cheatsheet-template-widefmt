@@ -22,4 +22,4 @@ Output is generated at `./build/default/default.pdf`.
 
 ***
 
-- [1](https://tectonic-typesetting.github.io/)
+- [1: https://tectonic-typesetting.github.io/](https://tectonic-typesetting.github.io/)
