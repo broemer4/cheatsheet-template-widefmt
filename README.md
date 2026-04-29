@@ -12,7 +12,7 @@ A minimal A4 landscape multi-column document template.
 
 ## Build
 
-Install Tectonic [^fn1], then run:
+Install Tectonic[^fn1], then run:
 
 ```sh
 tectonic -X build # --open if you want to directly open using the default reader
@@ -20,6 +20,7 @@ tectonic -X build # --open if you want to directly open using the default reader
 
 Output is generated at `./build/default/default.pdf`.
 
-***
 
-[^fn1]: [https://tectonic-typesetting.github.io/](https://tectonic-typesetting.github.io/)
+## References 
+
+[^fn1]: https://tectonic-typesetting.github.io/
