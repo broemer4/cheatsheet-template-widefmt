@@ -1,26 +1,21 @@
-
-
-
 \documentclass[a4paper ,landscape]{article}
-\usepackage{lipsum}
+\usepackage{lipsum} % WARNING: uncomment if not used outside the template
 
-\title{My Title}
+% adjust margins as needed
+\usepackage[top=1.75cm, bottom=0.7cm, left=0.7cm, right=0.7cm]{geometry}
 
-\usepackage[top=1.75cm, bottom=0.7cm, left=0.7cm, right=0.7cm]{geometry} % Adjust margins as needed
 \usepackage{multicol}
 \usepackage{fancyhdr}
 
-% Settings - Commands etc.
-
-% Remove indents or margins inbetween sections
+% remove indents or margins inbetween sections
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
-% Header and footer
+% header and footer
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{"Document-Type"} % Change Document-Type here
-\rhead{"Subject"} % Change Subject here
+\lhead{"Document-Type"} % WARNING: change document-type name here
+\rhead{"Subject"} % WARNING: change document-type name here
 \rfoot{\thepage}
 
 \begin{document}
